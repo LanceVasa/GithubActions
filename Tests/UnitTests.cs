@@ -27,7 +27,6 @@ public class Addition
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, null));
 	}
 
-{
     [TestMethod]
     public void Subtract_Valid_Patino()
     {
